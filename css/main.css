@@ -12,7 +12,9 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font: normal 100%/1.5 Helvetica, sans-serif;
+  font: normal 100%/1.5 'Dosis', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -26,12 +28,21 @@ html {
   display: block;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+header {
+  background-color: #e2e2e2;
 }
 
 
+
+
+
+a:link, a:visited {
+    display: block;
+    font-weight: bold;
+    color: black;
+    background-color: #e3e3e3;
+    text-align: center;
+    text-decoration: none;
 
 /*------------media---------------*/
 
@@ -41,6 +52,6 @@ body {
 
 
 
-  @media only screen and (min-width: 38em){
+@media only screen and (min-width: 38em){
 
   }

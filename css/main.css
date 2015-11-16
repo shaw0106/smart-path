@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font: normal 100%/1.5 Dosis, sans-serif;
+  font: normal 100%/1.5 'Dosis', sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -25,7 +25,15 @@ html {
   display: block;
 }
 
-/*-------------------------------------------------*/
+h2 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+/*---------------------Masthead including nav----------------------------*/
 
 .masthead {
 background-color: #e2e2e2;
@@ -54,10 +62,26 @@ a:hover {
 .list-group__item {
   display: inline-block;
   border: solid yellow;
-  border-width: 0 0 0 2px; 
+  border-width: 0 0 0 2px;
   padding: 0.5em 1em;
   margin: 0;
 }
+
+
+/*-------transbar----------------------------*/
+
+
+
+.bar {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 1em;
+  position: relative;
+  bottom: 160px;
+}
+
+
+
 
 
 @media only screen and (min-width: 50em){

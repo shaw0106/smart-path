@@ -20,29 +20,15 @@ html {
   box-sizing: inherit;
 }
 
-/*-------------------------------------------------*/
-
 .img-flex{
   width: 100%;
   display: block;
 }
 
-header {
-  background-color: #e2e2e2;
-}
+/*-------------------------------------------------*/
 
-a {
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  color: yellow;
-}
-
-.nav {
-text-align: center;
-margin-top: 1.5rem;
+.masthead {
+background-color: #e2e2e2;
 }
 
 .logo {
@@ -50,14 +36,29 @@ max-width: 250px;
 margin: 0 auto;
 }
 
-.nav a {
-display: inline-block;
-margin: 0 0.5em;
+.nav {
+text-align: center;
+margin-top: 1.5rem;
 }
 
-.masthead {
-background-color: #e2e2e2;
+.nav a {
+margin: 0 1em;
+color: black;
+text-decoration: none;
 }
+
+a:hover {
+  color: yellow;
+}
+
+.list-group__item {
+  display: inline-block;
+  border: solid yellow;
+  border-width: 0 0 0 2px; 
+  padding: 0.5em 1em;
+  margin: 0;
+}
+
 
 @media only screen and (min-width: 50em){
 
@@ -66,18 +67,8 @@ margin: 0;
 }
 
 .nav {
-text-align: center;
-margin-top: 0;
-}
-
-}
-
-
-
-@media only screen and (min-width: 50em) {
-
-.nav {
 text-align: right;
+margin-top: 0;
 }
 
 }

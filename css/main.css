@@ -27,12 +27,16 @@ html {
 
 h2 {
   font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
 }
 
 h3 {
   font-weight: normal;
 }
 
+.join {
+  max-width: 10px;
+}
 /*---------------------Masthead including nav----------------------------*/
 
 .masthead {

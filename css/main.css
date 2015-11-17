@@ -34,9 +34,11 @@ h3 {
   font-weight: normal;
 }
 
-.join {
-  max-width: 10px;
+footer {
+  background-color: lightgrey;
 }
+
+
 /*---------------------Masthead including nav----------------------------*/
 
 .masthead {

@@ -20,17 +20,18 @@
   <ul class="skip-links">
     <li><a href="#nav">Jump to Navigation</a></li>
     <li><a href="#hero">Jump to Hero Banner</a></li>
+    <li><a href="#choose">Jump to Choose Smart-Path</a></li>
   </ul>
 
 
-  <header class="masthead island">
+  <header class="masthead island" role="banner" id="masthead">
     <div class="grid grid-bottom">
 
         <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-          <a href="#index.html"><h1 class="push-0"><img class="img-flex logo" src="design/logo.png"></h1></a>
+          <a href="index.html" aria-label="Link to home"><h1 class="push-0"><img class="img-flex logo" src="design/logo.png" alt="Smart-Path"></h1></a>
         </div>
 
-        <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 text-right grid-bottom">
+        <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 text-right grid-bottom" role="nav" id="nav">
           <ul class="list-group giga push-0 nav">
               <li class="list-group__item list-group_item--inline"><a href="tour.html">Tour</a></li>
               <li class="list-group__item list-group_item--inline"><a href="prices.html">Prices</a></li>
@@ -42,26 +43,26 @@
   </header>
 
   <div class="embed embed--3by2 hero">
-      <img class="embed__item" src="img/workstationyellow.jpg" alt="A hand near a computer and a yellow watch sit on a desk">
+      <img class="embed__item" src="img/workstationyellow.jpg" alt="">
   </div>
 
   <div class="bar">
       <h2 class="yotta push-0">Anyone can learn to code</h2>
-      <h3 class="peta push-0"><a href="#signup">Sign up</a> now and recieve two free months of Premium Plan</h3>
+      <h3 class="peta push-0"><a href="signup.html">Sign up</a> now and recieve two free months of Premium Plan</h3>
   </div>
 
 
 
 
 
-<div class="grid island">
+<div class="grid island" id="choose">
   <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter push">
 
       <div>
         <h2 class="exa">Why choose Smart-Path?</h2>
         <h3 class-"peta">With our professional teachers and extensive knowlege of CSS,
           HTML, Javascript and Python we teach to all skill levels with personalized
-          education plans that keeps you on track of your future goals. <a href="#signup.html">Join Smart-Path</a> for free.</h3>
+          education plans that keeps you on track of your future goals. <a href="signup.html">Join Smart-Path</a> for free. Start today!</h3>
       </div>
   </div>
 
@@ -224,8 +225,6 @@
 
 
 <footer>
-
-
     <div class="grid grid-bottom push btn">
 
         <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
@@ -235,17 +234,14 @@
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 right">
           <h1 class="push-0"><img class="img-flex logo" src="img/socialmedia-buttons.png"></h1>
         </div>
+
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" role="contentinfo">
+          <p class="micro">© 2015 SAAS Shaw Design</p>
+        </div>
+
     </div>
 
-
-
 </footer>
-
-
-
-
-
-
 
 </body>
 </html>

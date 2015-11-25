@@ -72,25 +72,18 @@ a {
 
 
 a:hover {
-  color: yellow;
+  color: grey;
   text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-  border: none;
 }
 
 
 .list-group__item {
   display: inline-block;
   border: solid yellow;
-  border-width: 0 0 0 2px;
+  border-width: 0 0 0 3px;
   padding: 0.5em 1em;
   margin: 0;
 }
-
-
 
 /*-------transbar----------------------------*/
 
@@ -105,17 +98,24 @@ a:visited {
 }
 
 
-
-/*-------tour----------------------------*/
-
+/*-------buttons----------------------------*/
 
 
 
+.imgbox:hover {
+  -moz-box-shadow: 0 0 20px #ccc;
+  -webkit-box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #6d6d6d;
+  }
 
 
+.suc h3{
+  line-height: 1.5;
+}
 
-
-
+.bt {
+  background-color: purple;
+}
 
 /*----------media-----------------------------*/
 

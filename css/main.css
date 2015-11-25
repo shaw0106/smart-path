@@ -36,14 +36,14 @@ h3 {
 }
 
 footer {
-  background-color: lightgrey;
+  background-color: #d7d7d7;
 }
 
 
 /*---------------------Masthead including nav----------------------------*/
 
 .masthead {
-background-color: #e2e2e2;
+background-color: #d7d7d7;
 }
 
 .logo {
@@ -67,7 +67,7 @@ border-bottom: none;
 a {
   color: black;
   text-decoration: none;
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid #f2eb43;
 }
 
 
@@ -79,11 +79,23 @@ a:hover {
 
 .list-group__item {
   display: inline-block;
-  border: solid yellow;
-  border-width: 0 0 0 3px;
+  border: solid #f2eb43;
+  border-width: 0 0 0 4px;
   padding: 0.5em 1em;
   margin: 0;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
 }
+
+.list-group__item a:hover {
+  color: white;
+}
+
+.sign {
+  border: solid #f2eb43;
+  border-width:4px;
+}
+
 
 /*-------transbar----------------------------*/
 
@@ -113,9 +125,17 @@ a:hover {
   line-height: 1.5;
 }
 
-.bt {
-  background-color: purple;
+
+
+.btn {
+  background: linear-gradient(180deg, white, #e7e7e7)
 }
+
+.pro {
+  background-color: #e0e0e0;
+}
+
+
 
 /*----------media-----------------------------*/
 

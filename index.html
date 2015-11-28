@@ -21,6 +21,8 @@
     <li><a href="#nav">Jump to Navigation</a></li>
     <li><a href="#hero">Jump to Hero Banner</a></li>
     <li><a href="#choose">Jump to Choose Smart-Path</a></li>
+    <li><a href="#tour">Jump to Choose Smart-Path</a></li>
+    <li><a href="#successstories">Jump to Choose Smart-Path</a></li>
   </ul>
 
 
@@ -91,14 +93,14 @@
 
 
 
-<div class="grid island">
+<div class="grid island" role="tour" id="tour">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push-2">
       <div class="embed embed--3by2 imgbox">
         <a href="tour.html"><img class="embed__item" src="img/takethetour-button-full.png" alt=""></a>
       </div>
     </div>
 
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
       <div>
         <h2 class="exa push-0">We're here for you 24/7</h2>
         <h3 class-"peta push-0">Our comprehensive guide to learning helps you organize
@@ -115,7 +117,7 @@
     <img class="embed__item" src="img/clock.jpg" alt="">
 </div>
 
-<div class="bar">
+<div class="bar" role="successstories" id="successstories">
     <h2 class="yotta push-0">Your future is bright</h2>
     <h3 class="peta push-0">Find your dream job. <a href="#signup.html">Join Smart-Path</a> for free.</h3>
 </div>
@@ -135,7 +137,7 @@
       </div>
   </div>
 
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push-2">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push-2 gutter">
       <div class="embed embed--3by2 imgbox">
           <a href="signup.html"><img class="embed__item" src="img/starttoday-button-full.png" alt=""></a>
       </div>
@@ -148,8 +150,6 @@
 
 
 <div class="grid island pro">
-
-
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
       <div class="embed embed--1by1">
         <img class="embed__item" src="design/profile2.png" alt="">
@@ -157,7 +157,7 @@
     </div>
 
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
-      <div>
+
         <h2 class="push-0 zeta">Sarah Conner</h2>
         <h2 class="push-0 giga">Goal:</h2>
         <h3 class-"push-0">Get ahead of the competition with a better
@@ -167,9 +167,16 @@
           work for a top company creating apps and websites full-time.
         </h3>
       </div>
-  </div>
 
-</div>
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 gutter">
+          <div class="embed embed--3by2">
+            <button class="btn btn-4 btn-4c img/arrow-icon.png"><a class="" href="signup.html"><h1>SIGN_UP</h1></a></button>
+
+          </div>
+        </div>
+      </div>
+
+
 
 <div class="grid island">
 
@@ -245,7 +252,7 @@
 </div>
 
 
-<footer>
+<footer role="footer" id="footer">
     <div class="grid grid-bottom push bottom">
 
         <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">

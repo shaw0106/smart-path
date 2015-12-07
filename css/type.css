@@ -119,14 +119,22 @@ h1, .exa {
   line-height: 1.9500rem;
 }
 
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
+}
+
 h2, .peta {
   font-size: 1.2962rem;
   line-height: 1.9500rem;
+
 }
 
 h3, .tera {
   font-size: 1.2148rem;
   line-height: 1.6250rem;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 h4, .giga {
@@ -261,6 +269,13 @@ td, th, fieldset {
 .gutter-quarter, .gutter-1-4 {
   padding-left: 0.3250rem;
   padding-right: 0.3250rem;
+}
+
+blockquote {
+  text-align: center;
+  border-radius: 25px 0 25px 25px;
+  border: 3px solid black;
+  padding: 15px;
 }
 
 @media only screen and (min-width: 38em) {
@@ -651,6 +666,11 @@ h1, .exa {
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 2.2500rem;
+}
+
+h3 {
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 h3, .tera {

@@ -25,24 +25,12 @@ html {
   display: block;
 }
 
-h2 {
-  font-family: 'Abril Fatface', cursive;
-  letter-spacing: 2px;
-}
-
-h3 {
-  font-weight: normal;
-  line-height: 1.5;
-}
-
 footer {
   background-color: #d7d7d7;
 }
 
 
 /*---------------------Masthead including nav----------------------------*/
-
-
 
 .masthead {
 background-color: #d7d7d7;
@@ -65,19 +53,16 @@ text-decoration: none;
 border-bottom: none;
 }
 
-
 a {
   color: black;
   text-decoration: none;
   border-bottom: 3px solid #f2eb43;
 }
 
-
 a:hover {
   color: grey;
   text-decoration: none;
 }
-
 
 .list-group__item {
   display: inline-block;
@@ -98,8 +83,6 @@ a:hover {
   border-width:4px;
 }
 
-
-
 /*-------transbar----------------------------*/
 
 .bar {
@@ -110,7 +93,6 @@ a:hover {
   padding-bottom: .5em;
 }
 
-
 /*-------buttons----------------------------*/
 
 .imgbox:hover {
@@ -119,7 +101,6 @@ a:hover {
   box-shadow: 0 0 20px #6d6d6d;
   border-radius: 20px 0 20px 20px;
   }
-
 
 /*-------style----------------------------*/
 
@@ -135,16 +116,108 @@ h4 {
   background-color: #f2eb43;
 }
 
-
 blockquote {
-  text-align: center;
-  border-radius: 25px 0 25px 25px;
-  border: 3px solid black;
-  padding: 15px;
+  background: -webkit-linear-gradient(-35deg, #e0e0e0, white);
+  border: none;
 }
 
-/*----------media-----------------------------*/
+/*experiment*/
 
+
+body {
+	background-color: white;
+	padding: 50px;
+}
+
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+
+.linked span {
+	background-color: black;
+}
+
+.github span {
+	background-color: black;
+}
+
+.google-plus span {
+	background-color: black;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+
+.icon-button .icon-linked {
+	color: #4099ff;
+}
+
+.icon-button .icon-github {
+	color: #3B5998;
+}
+
+.icon-button .icon-google-plus {
+	color: #db5a3c;
+}
+
+.icon-button:hover .icon-linked,
+.icon-button:hover .icon-github,
+.icon-button:hover .icon-google-plus {
+	color: white;
+
+/*----------media-----------------------------*/
 
 @media only screen and (min-width: 50em){
 

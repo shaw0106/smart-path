@@ -124,6 +124,8 @@ blockquote {
   border: none;
 }
 
+
+
 /*experiment---http://designscrazed.org/html-css3-social-media-buttons*/
 
 
@@ -131,12 +133,13 @@ blockquote {
 
 /* Wrapper */
 .icon-button {
-	background-color: white;
+	background-color: grey;
 	border-radius: 10px 0 10px 10px;
 	display: inline-block;
 	height: 3.6rem;
 	line-height: 3.6rem;
 	margin: 0 5px;
+  font-size: 2.5em;
 	position: relative;
 	text-align: center;
 	-webkit-user-select: none;
@@ -167,24 +170,12 @@ blockquote {
 	height: 3.6rem;
 	border-radius: 10px 0 10px 10px;
 	margin: -1.8rem;
-}
-
-.linked span {
-	background-color: black;
-}
-
-.github span {
-	background-color: black;
-}
-
-.google-plus span {
-	background-color: black;
+  background-color: black;
 }
 
 /* Icons */
 .icon-button i {
 	background: none;
-	color: white;
 	height: 3.6rem;
 	left: 0;
 	line-height: 3.6rem;
@@ -198,11 +189,7 @@ blockquote {
 	z-index: 10;
 }
 
-.icon-button:hover .icon-linked,
-.icon-button:hover .icon-github,
-.icon-button:hover .icon-google-plus {
-	color: white;
-}
+
 
 /*----------media-----------------------------*/
 

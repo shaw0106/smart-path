@@ -99,35 +99,33 @@ a:hover {
 }
 
 
+
 /*-------transbar----------------------------*/
-
-
 
 .bar {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.7);
   position: relative;
   bottom: 160px;
+  padding-bottom: .5em;
 }
 
 
 /*-------buttons----------------------------*/
 
-
-
 .imgbox:hover {
-  -moz-box-shadow: 0 0 2px #ccc;
+  -moz-box-shadow: 0 0 20px #ccc;
   -webkit-box-shadow: 0 0 2px #ccc;
   box-shadow: 0 0 20px #6d6d6d;
+  border-radius: 20px 0 20px 20px;
   }
 
+
+/*-------style----------------------------*/
 
 .suc h3{
   line-height: 1.5;
 }
-
-
-
 
 .pro {
   background-color: #e0e0e0;
@@ -135,76 +133,15 @@ a:hover {
 
 h4 {
   background-color: #f2eb43;
-
 }
 
 
-.btn-4 {
-    border-radius: 50px;
-    border: 3px solid #fff;
-    color: #fff;
-    overflow: hidden;
+blockquote {
+  text-align: center;
+  border-radius: 25px 0 25px 25px;
+  border: 3px solid black;
+  padding: 15px;
 }
-
-.btn {
-        border: none;
-        font-family: inherit;
-        font-size: inherit;
-        color: inherit;
-        background: none;
-        cursor: pointer;
-        padding: 25px 80px;
-        display: inline-block;
-        margin: 15px 30px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-weight: 700;
-        outline: none;
-        position: relative;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
-    }
-
-
-
-.btn-4:before {
-position: absolute;
-height: 100%;
-font-size: 125%;
-line-height: 3.5;
-color: #fff;
--webkit-transition: all 0.3s;
--moz-transition: all 0.3s;
-transition: all 0.3s;
-}
-
-.icon-arrow-right:before
-{
-content: "\e00d";
-}
-
-.btn:before, .icon-heart:after, .icon-star:after, .icon-plus:after, .icon-file:before {
-
-
-    speak: none;
-    text-transform: none;
-    line-height: 1;
-    position: relative;
-    -webkit-font-smoothing: antialiased;
-}
-
-.btn:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-
-
 
 /*----------media-----------------------------*/
 

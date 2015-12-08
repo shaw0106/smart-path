@@ -68,7 +68,7 @@ a:hover {
 .list-group__item {
   display: inline-block;
   border: solid #f2eb43;
-  border-width: 0 0 0 4px;
+  border-width: 0 0 0 0px;
   padding: 0.5em 1em;
   margin: 0;
   font-family: 'Abril Fatface', cursive;
@@ -124,16 +124,16 @@ blockquote {
   border: none;
 }
 
+.greyb {
+  background-color: #f3f3f3;
+}
 
 
 /*experiment---http://designscrazed.org/html-css3-social-media-buttons*/
 
-
-
-
 /* Wrapper */
 .icon-button {
-	background-color: grey;
+	background-color: white;
 	border-radius: 10px 0 10px 10px;
 	display: inline-block;
 	height: 3.6rem;
@@ -189,11 +189,42 @@ blockquote {
 	z-index: 10;
 }
 
-
+footer a:hover {
+  color: white;
+}
 
 /*----------media-----------------------------*/
 
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 15em){
+
+  body {
+    padding: 10px;
+  }
+}
+
+
+
+@media only screen and (min-width: 30em){
+
+  body {
+    padding: 20px;
+  }
+
+  .list-group__item {
+    border: solid #f2eb43;
+    border-width: 0 0 0 4px;
+}
+
+  .sign {
+    border: solid #f2eb43;
+    border-width: 4px;
+    background: -webkit-linear-gradient(-35deg, #f3f3f3, lightgrey);
+}
+
+}
+
+
+@media only screen and (min-width: 50em){
 
 .logo {
 margin: 0;
@@ -201,6 +232,16 @@ margin: 0;
 
 body {
   padding: 50px;
+}
+
+.list-group__item {
+  border: solid #f2eb43;
+  border-width: 0 0 0 4px;
+}
+
+.sign {
+  border: solid #f2eb43;
+  border-width:4px;
 }
 
 .nav {

@@ -82,6 +82,7 @@ a:hover {
 .sign {
   border: solid #f2eb43;
   border-width:4px;
+  background: -webkit-linear-gradient(-35deg, #f2eb43, lightgrey);
 }
 
 
@@ -219,11 +220,7 @@ footer a:hover {
     border-width: 0 0 0 4px;
 }
 
-  .sign {
-    border: solid #f2eb43;
-    border-width: 4px;
-    background: -webkit-linear-gradient(-35deg, #f3f3f3, lightgrey);
-}
+
 
 }
 
@@ -243,10 +240,6 @@ body {
   border-width: 0 0 0 4px;
 }
 
-.sign {
-  border: solid #f2eb43;
-  border-width:4px;
-}
 
 .nav {
 text-align: right;

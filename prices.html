@@ -10,6 +10,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css">
   <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,22 +18,33 @@
 </head>
 <body>
 
-  <header class="masthead island yl">
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to Navigation</a></li>
+    <li><a href="#hero">Jump to Hero Banner</a></li>
+    <li><a href="#choose">Jump to why choose smart-path</a></li>
+    <li><a href="#tour">Jump to Choose tour</a></li>
+    <li><a href="#successstories">Jump to choose success stories</a></li>
+    <li><a href="#footer">Jump to choose footer</a></li>
+  </ul>
+
+  <header class="masthead push-0" role="banner" id="masthead">
     <div class="grid grid-bottom">
 
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-        <a href="index.html"><h1 class="push-0"><img class="img-flex logo" src="design/logo.png"></h1></a>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 island">
+        <a href="index.html"><h1 class="push-0">
+          <img class="img-flex logo" src="img/logo.png" alt="Smart-Path"></h1></a>
         </div>
 
-        <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 text-right grid-bottom">
+        <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 text-right grid-bottom" role="nav" id="nav">
           <ul class="list-group tera push-0 nav">
               <li class="list-group__item list-group_item--inline"><a href="tour.html">Tour</a></li>
               <li class="list-group__item list-group_item--inline"><a href="prices.html">Prices</a></li>
-              <li class="list-group__item list-group_item--inline sign"><a href="signup.html">Sign-up</a></li>
+              <li class="list-group__item list-group_item--inline sign"><a href="signup.html">SIGN-UP</a></li>
           </ul>
         </nav>
 
     </div>
+
   </header>
 
 
@@ -112,19 +124,27 @@
 
 
 
-  <footer>
+  <footer role="footer" id="footer">
 
+    <div class="grid grid-bottom push">
 
-      <div class="grid grid-bottom push btn">
-
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-              <a href="index.html"><h1 class="push-0"><img class="img-flex logo" src="design/logo.png"></h1></a>
-          </div>
-
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 right">
-            <h1 class="push-0"><img class="img-flex logo" src="img/socialmedia-buttons.png"></h1>
-          </div>
+      <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1 unit-l-1-2 gutter">
+          <a href="index.html"><h1 class="push-0"><img class="img-flex logo" src="img/logo.png"></h1></a>
       </div>
+
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 pin-bottom-right">
+        <a href="https://www.linkedin.com/" class="icon-button linkedin">
+          <i class="fa fa-linkedin"></i><span></span></a>
+
+        <a href="http://github.com" class="icon-button github">
+          <i class="fa fa-github"></i><span></span></a>
+
+        <a href="http://plus.google.com" class="icon-button google-plus">
+          <i class="fa fa-google-plus"></i><span></span></a>
+
+      </div>
+
+
 
 
 

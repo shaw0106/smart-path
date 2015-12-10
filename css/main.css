@@ -120,12 +120,16 @@ h4 {
 }
 
 blockquote {
-  background: -webkit-linear-gradient(-35deg, #e0e0e0, white);
+  background-color: #e0e0e0;
   border: none;
 }
 
 .greyb {
   background-color: #f3f3f3;
+}
+
+.qt {
+  background-color: white;
 }
 
 

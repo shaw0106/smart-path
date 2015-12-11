@@ -133,6 +133,11 @@ blockquote {
   background-color: white;
 }
 
+.group {
+  font-family: "Dosis", sans-serif;
+  line-height: 1em;
+}
+
 
 /*experiment---http://designscrazed.org/html-css3-social-media-buttons*/
 

@@ -135,9 +135,11 @@ blockquote {
 
 .group {
   font-family: "Dosis", sans-serif;
-  line-height: 1em;
 }
 
+.boryel {
+  border-top: 3px solid #f2eb43;
+}
 
 /*experiment---http://designscrazed.org/html-css3-social-media-buttons*/
 

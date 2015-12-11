@@ -38,58 +38,88 @@
   </header>
 
 
-  <form action="https://formspree.io/bradlet@algonquincollege.com" method="post">
+  <div class="embed embed--3by2 hero push-0 boryel">
+      <img class="embed__item" src="img/getstarted.jpg" alt="">
+  </div>
 
-    <div>
-      <label for="name">Name</label>
-      <input id="name" required name="name">
+  <div class="bar push-0">
+      <h2 class="yotta push-0">Sign up</h2>
+      <h3 class="peta">And get started today</h3>
+  </div>
+
+<div class="grid greyb">
+      <form action="https://formspree.io/bradlet@algonquincollege.com" method="post">
+
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+          <label for="name">Name</label>
+          <input id="name" required name="name">
+        </div>
+
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required placeholder="you@yours.com">
+        </div>
+  </div>
+
+<div class="grid pro">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+          <label for="subject">Payment Method</label>
+          <select id="subject" name="_subject" required name"subject">
+            <option></option>
+            <option>Mastercard</option>
+            <option>American Express</option>
+          </select>
+        </div>
+
+        <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+
+          <legend>Term</legend>
+
+          <input id="monthly" type="radio" name="monthly">
+          <label for="monthly">Monthly Payment</label>
+
+          <input id="yearly" type="radio" name="yearly">
+          <label for="yearly">Yearly Payment</label>
+        </fieldset>
+
+
+
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+          <label for="text">Credit Card Number</label>
+          <input id="text" type="text" name="text" required>
+        </div>
+
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+            <label for="text">Security Number</label>
+            <input id="text" type="text" name="text" required>
+          </div>
+</div>
+
+
+  <div class="grid">
+
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+        <label for="text">Credit Card Number</label>
+        <input id="text" type="text" name="text" required>
+      </div>
+
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+          <label for="password">Security Number</label>
+          <input id="password" type="password" name="password" required>
+        </div>
     </div>
 
-    <div>
-      <label for="email">Email</label>
-      <input id="email" type="email" name="email" required placeholder="you@yours.com">
-    </div>
 
-    <div>
-      <label for="subject">Payment Method</label>
-      <select id="subject" name="_subject" required name"subject">
-        <option></option>
-        <option>Mastercard</option>
-        <option>American Express</option>
-      </select>
-    </div>
+  <div>
 
-    <fieldset>
-      <legend>Term</legend>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
 
-      <input id="monthly" type="radio" name="monthly">
-      <label for="monthly">Monthly Payment</label>
-
-      <input id="yearly" type="radio" name="yearly">
-      <label for="yearly">Yearly Payment</label>
-    </fieldset>
-
-    <div>
-      <label for="text">Credit Card Number</label>
-      <input id="text" type="text" name="text" required>
-    </div>
-
-    <div>
-      <button type="submit">Complete Sign-Up</button>
-    </div>
-
-    <input type="hidden" name="_next"
-      value="https://shaw0106.github.io/forms/thanks.html">
-
-  </form>
-
-  </body>
-  </html>
-
-
-
-
-
+        <input type="hidden" name="_next"
+          value="https://shaw0106.github.io/forms/thanks.html">
+      </form>
+</div>
 
 
   <footer role="footer" id="footer">

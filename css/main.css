@@ -114,6 +114,7 @@ a:hover {
 
 .pro {
   background-color: #e0e0e0;
+  border: none;
 }
 
 h4 {
@@ -139,6 +140,10 @@ blockquote {
 
 .boryel {
   border-top: 3px solid #f2eb43;
+}
+
+.fieldset {
+  border: none;
 }
 
 /*experiment---http://designscrazed.org/html-css3-social-media-buttons*/
@@ -230,8 +235,12 @@ button {
   cursor: pointer;
 }
 
- {
-  padding-left: 1em;
+input :valid {
+  border: 3px solid yellow;
+}
+
+fieldset {
+  border: none;
 }
 
 /*----------media-----------------------------*/

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Tour</title>
+  <title>Sign-up</title>
   <link href="css/module.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -36,6 +36,61 @@
 
     </div>
   </header>
+
+
+  <form action="https://formspree.io/bradlet@algonquincollege.com" method="post">
+
+    <div>
+      <label for="name">Name</label>
+      <input id="name" required name="name">
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" required placeholder="you@yours.com">
+    </div>
+
+    <div>
+      <label for="subject">Payment Method</label>
+      <select id="subject" name="_subject" required name"subject">
+        <option></option>
+        <option>Mastercard</option>
+        <option>American Express</option>
+      </select>
+    </div>
+
+    <fieldset>
+      <legend>Term</legend>
+
+      <input id="monthly" type="radio" name="monthly">
+      <label for="monthly">Monthly Payment</label>
+
+      <input id="yearly" type="radio" name="yearly">
+      <label for="yearly">Yearly Payment</label>
+    </fieldset>
+
+    <div>
+      <label for="text">Credit Card Number</label>
+      <input id="text" type="text" name="text" required>
+    </div>
+
+    <div>
+      <button type="submit">Complete Sign-Up</button>
+    </div>
+
+    <input type="hidden" name="_next"
+      value="https://shaw0106.github.io/forms/thanks.html">
+
+  </form>
+
+  </body>
+  </html>
+
+
+
+
+
+
 
   <footer role="footer" id="footer">
 

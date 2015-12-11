@@ -205,6 +205,32 @@ footer a:hover {
   color: white;
 }
 
+/*----signup-----------------------------------*/
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input + label {
+  display: inline;
+}
+
+input {
+  border: 3px solid black
+  background-color: lightgrey;
+  border-radius: 5px
+
+}
+
+
+button {
+  border: 3px solid black;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+
 /*----------media-----------------------------*/
 
 @media only screen and (min-width: 15em){

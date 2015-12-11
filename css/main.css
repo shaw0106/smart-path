@@ -1,28 +1,7 @@
-@-moz-viewport {width: device-width; scale: 1;}
-@-ms-viewport {width: device-width; scale: 1;}
-@-o-viewport {width: device-width; scale: 1;}
-@-webkit-viewport {width: device-width; scale: 1;}
-@viewport {width: device-width; scale: 1;}
-
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
-  font: normal 100%/1.5 'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif;
   padding: 0;
   margin: 0;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-.img-flex{
-  width: 100%;
-  display: block;
 }
 
 footer {
@@ -265,7 +244,21 @@ fieldset {
     border-width: 0 0 0 4px;
 }
 
+.tour {
+  -webkit-align-items: flex-end;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+}
+}
 
+
+@media only screen and (min-width: 35em) {
+
+  .tour {
+    -webkit-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+  }
 
 }
 
@@ -290,5 +283,12 @@ body {
 text-align: right;
 margin-top: 0;
 }
+
+.tour {
+  -webkit-align-items: flex-start;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
+
 
 }

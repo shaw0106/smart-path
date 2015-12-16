@@ -20,11 +20,11 @@
 
     <ul class="skip-links">
       <li><a href="#nav">Jump to Navigation</a></li>
-      <li><a href="#packages">Jump to packages</a></li>
-      <li><a href="#basic">Jump to basic package</a></li>
-      <li><a href="#pro">Jump to pro package</a></li>
-      <li><a href="#enterprise">Jump to enterprise package</a></li>
-      <li><a href="#team">Jump to team player</a></li>
+      <li><a href="#personal">Jump to personal information input</a></li>
+      <li><a href="#plan">Jump to choose your plan</a></li>
+      <li><a href="#account">Jump to add account information</a></li>
+      <li><a href="#payment">Jump to payment method</a></li>
+      <li><a href="#submit">Jump to submit form</a></li>
       <li><a href="#footer">Jump to footer</a></li>
     </ul>
 
@@ -61,13 +61,13 @@
 
 
 
-<div class="grid greyb island  grid-bottom">
+<div class="grid greyb island grid-bottom" role="personal" id="personal">
       <form action="https://formspree.io/shaw0106@algonquinlive.com" method="post">
         <input type="hidden" name="_next" value="//site.io/thanks.html">
 
 
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
-          <legend>Personal Info</legend>
+          <legend class="exa push">Personal Info</legend>
           <label for="name">Name</label>
           <input id="name" required name="name">
         </div>
@@ -78,19 +78,11 @@
         </div>
   </div>
 
-<div class="grid pro island">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
-          <label for="subject">Payment Method</label>
-          <select id="subject" name="_subject" required name"subject">
-            <option></option>
-            <option>Mastercard</option>
-            <option>American Express</option>
-          </select>
-        </div>
+<div class="grid pro island grid-bottom" role="plan" id="plan">
 
-        <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
+        <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
 
-          <legend>Term</legend>
+          <legend class="exa push">Choose Your Plan</legend>
 
           <input id="monthly" type="radio" name="monthly">
           <label for="monthly">Monthly Payment</label>
@@ -99,9 +91,7 @@
           <label for="yearly">Yearly Payment</label>
         </fieldset>
 
-        <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
-
-          <legend>Package</legend>
+        <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
 
           <input id="" type="radio" name="basic" value="basic">
           <label for="basic">Basic Package</label>
@@ -116,42 +106,63 @@
 
 </div>
 
-  <div class="grid island">
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-          <label for="text">Credit Card Number</label>
-          <input id="text" type="text" name="text" required>
-        </div>
-
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <label for="text">Security Number</label>
-            <input id="text" type="text" name="text" required>
-          </div>
-  </div>
 
 
-  <div class="grid greyb island">
 
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+  <div class="grid greyb island grid-bottom" role="account" id="account">
+
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+      <legend class="exa push">Account Information</legend>
+
         <label for="text">User Name</label>
         <input id="text" type="text" name="text" required>
       </div>
 
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
           <label for="password">Password</label>
           <input id="password" type="password" name="password" required>
         </div>
     </div>
 
+<div class="grid grid-bottom island">
 
-  <div>
-        <div class="island-2 greyb">
-          <button type="submit" class="imgbox">Submit</button>
-        </div>
 
-        <input type="hidden" name="_next"
-          value="https://shaw0106.github.io/forms/thanks.html">
-      </form>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+      <legend class="exa push">Payment Method</legend>
+      <label for="subject">Payment Method</label>
+      <select id="subject" name="_subject" required name"subject">
+        <option></option>
+        <option>Mastercard</option>
+        <option>American Express</option>
+      </select>
+    </div>
 </div>
+
+    <div class="grid island">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+            <label for="text">Credit Card Number</label>
+            <input id="text" type="text" name="text" required>
+          </div>
+
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+              <label for="text">Security Number</label>
+              <input id="text" type="text" name="text" required>
+            </div>
+    </div>
+
+
+
+    <div>
+          <div class="island-2 greyb" id="submit" role="submit">
+            <button type="submit" class="imgbox">Submit</button>
+          </div>
+
+          <input type="hidden" name="_next" value="https://shaw0106.github.io/forms/thanks.html">
+        </form>
+  </div>
+
+
+
 
 
   <footer role="footer" id="footer">

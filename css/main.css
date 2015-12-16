@@ -71,6 +71,12 @@ a:hover {
   background-color: #f2eb43;
 }
 
+.needbo:hover {
+  -moz-box-shadow: 0 0 20px #ccc;
+  -webkit-box-shadow: 0 0 2px #ccc;
+  box-shadow: 0 0 20px #6d6d6d;
+}
+
 .newli {
   border: none;
 }
@@ -138,6 +144,10 @@ blockquote {
 
 .fieldset {
   border: none;
+}
+
+.profile {
+  border-radius: 100px 0 100px 100px;
 }
 
 /*experiment---http://designscrazed.org/html-css3-social-media-buttons*/
